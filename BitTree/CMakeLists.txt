@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED_VERSION (2.8.11)
+PROJECT (BitTree)
+set (SRC_DIR '')
+include_directories (${SRC_DIR}/src)
+add_executable (test 'test/main.cpp' )
